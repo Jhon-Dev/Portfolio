@@ -344,8 +344,7 @@ color:#0000009c;
 }
 .learn-more
 {
-background-color: #8C43FF;
-color:white;
+background-color:  rgb(0, 174, 255);
 cursor: pointer;
 outline:none;
 border-radius: 100px;
@@ -357,7 +356,7 @@ border:3px solid #949498;
 .learn-more:hover,.button:active
 {
   color:white;
-  background-color: #8C43FF;
+  background-color:  rgb(0, 174, 255);
   border-radius: 100px;
   border:3px solid #949498;
   transform:scale(1.2);
