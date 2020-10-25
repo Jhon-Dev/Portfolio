@@ -254,7 +254,26 @@ padding-bottom: 30px;
   font-weight: 800;
   font-family: Garamond, serif;
 }
-.skill h1,.portfolio h1
+
+.certificado {
+  /*background-color:#ffffff  ;*/
+  color: white;
+  position: relative;
+  margin-top: 100px;
+  
+}
+.certificado_heading {
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 2%;
+  font-weight: 800;
+  font-family: Garamond, serif;
+}
+
+.skill h1,.portfolio h1,.certificado
 {
   font-weight: 200;
   color: #0000009c;
@@ -354,6 +373,11 @@ border:3px solid #949498;
   opacity: 1;
 }
 .portfolio h1
+{
+  margin-bottom: 0;
+}
+
+.certificado h1
 {
   margin-bottom: 0;
 }
