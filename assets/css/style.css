@@ -6,9 +6,8 @@ a:hover{
 
 }
 
-
 .navbar-brand {
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: Garamond, serif;
   font-size: 28px;
   padding-left: 5px;
   letter-spacing: 1px;
@@ -41,7 +40,6 @@ a:hover{
   fill:black;
 }
  
-
 
 #particles-js{
   width: 100%;
@@ -98,8 +96,7 @@ border:black 2px solid;
  width:100%;
 
    margin-bottom: 10%;
-    top: 20%;
-
+    top: 30%;
     position: absolute;
     text-align: center;
 
@@ -108,7 +105,8 @@ border:black 2px solid;
 
 
 .intro{
-  font-family: 'Raleway', sans-serif;
+  font-family: Garamond, serif;
+
     font-size: 20px;
   color: #0000009c;
   width:95%;
@@ -125,31 +123,39 @@ border:black 2px solid;
 }
 
 
-
-
 .fname{
   font-size: 50px;
 }
 
 
 .about {
-  background-color:#f9ccf9/*#f9dbf9/*#FF6A8F/*#3EC300/*#7BE0AD/*#EFA8B8/*#003049/*#FF3C38/* #F45B69*/;
+ /* background-color:#f9ccf9; */
   margin-top: 0;
 
   /*height:100vh;*/
   position:relative;
 }
 
+.about_custom
+{
+
+  width:80%;
+  left:10%;
+    top: 5%;
+
+}
+
 .about_heading {
   font-weight: 200;
-  color: black;
+  color: rgba(0, 0, 0, 0.61);
   text-align: center;
   font-size: 60px;
-  margin-top:0;
+  margin-top:80px;
   padding-top:20px;
   text-shadow: 3px 3px 10px rgba(150, 150, 150, 1);
-  font-family: "Allerta Stencil", sans-serif;
-  margin-bottom: 2%;
+  font-family: Garamond, serif;
+  margin-bottom: 4%;
+  
 }
 .about_text
 {
@@ -159,6 +165,8 @@ border:black 2px solid;
     top: 50%;
     position: absolute;
     text-align: center;
+    margin-bottom: 10%;
+    top: 20%;
 }
 .copyright
 {
@@ -172,7 +180,8 @@ border:black 2px solid;
   margin-top:1rem;
   /*padding-bottom:2%;*/
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: Garamond, serif;
+
   text-align:center;
   letter-spacing: 2px;
   line-height: 30px;
@@ -185,7 +194,7 @@ padding-bottom: 30px;
 .contact_para
 {
   color:white;
-  font-family: 'Raleway', sans-serif;
+  font-family: Garamond, serif;
   text-align:center;
   letter-spacing: 2px;
   line-height: 30px;
@@ -197,7 +206,7 @@ padding-bottom: 30px;
 .sub-heading
 {
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: Garamond, serif;
 }
 .about-span
 {
@@ -211,8 +220,8 @@ padding-bottom: 30px;
 
 .img-radius
 {
-  border:8px solid black;
-  border-radius: 50%;
+  border:8px solid #007bff38;
+  border-radius: 28%;
 }
 .blast {
   /*display:inline-block;*/
@@ -243,7 +252,7 @@ padding-bottom: 30px;
   margin: 0;
   margin-bottom: 2%;
   font-weight: 800;
-  font-family: 'Amatic SC', cursive;
+  font-family: Garamond, serif;
 }
 .skill h1,.portfolio h1
 {
@@ -254,7 +263,7 @@ padding-bottom: 30px;
   margin-top:0;
   padding-top:20px;
   text-shadow: 3px 3px 10px rgba(150, 150, 150, 1);
-  font-family: "Allerta Stencil", sans-serif;
+  font-family: Garamond, serif;
 
   
 }
@@ -263,11 +272,11 @@ padding-bottom: 30px;
   margin-bottom: 100px;
   padding-top: 0px;
   margin-top: 10px
-  
 }
 .skill-tagline,.portfolio-subheading
 {
-font-family: 'Raleway', sans-serif;
+  font-family: Garamond, serif;
+
 font-size: 20px;
 letter-spacing: 2px;
 color:#0000009c;
@@ -431,25 +440,26 @@ grid-gap:30px;
   margin-bottom:35px;
   padding-top:40px;
   text-shadow: 3px 3px 10px rgba(150, 150, 150, 1);
-  font-family: "Allerta Stencil", sans-serif;
+  font-family: Garamond, serif;
+
 }
 .resume-link
 {
 
-  color:#4B0082/*darkslateblue*/;
+  color:#007bff/*darkslateblue*/;
   font-weight: 700;
 }
 .responsive{
-    color:#4B0082/*darkslateblue*/;
+    color:#007bff/*darkslateblue*/;
       font-weight: 700;
       cursor:pointer;
 }
 .btn-outline {
-    border: 2px solid  #4B0082 /*#6F838A*/;
-    color: #4B0082;
+    border: 2px solid  #007bff /*#6F838A*/;
+    color: #007bff;
     background-color: transparent;
     border-radius: 20px;
-    font-family: "Lato", sans-serif;
+    font-family: Garamond, serif;
     font-size: .9em;
     margin: 0 auto;
     padding: 5px;
@@ -475,7 +485,8 @@ border: 3px solid #fff;
 {
 
   color:white;
-  font-family: 'Raleway', sans-serif;
+  font-family: Garamond, serif;
+
 
     letter-spacing: 2px;
 
@@ -732,7 +743,16 @@ a {
 
     width:80%;
     left:10%;
-      top: 30%;
+    top: 20%;
+
+  }
+
+  .pegaz
+  {
+
+    width:80%;
+    left:10%;
+    top: 30%;
 
   }
 
@@ -758,7 +778,8 @@ a {
   .sub-heading
   {
     font-size: 30px;
-    font-family: 'Raleway', sans-serif;
+    font-family: Garamond, serif;
+
   }
   .profile-img {
     width: 20%;
